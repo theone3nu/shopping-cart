@@ -1,0 +1,44 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0px #444;
+  padding: 2rem;
+  max-height: 450px;
+  width: 450px;
+  overflow: auto;
+  gap: 1rem;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.cartItem-title {
+  font-size: 18px;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+}
+
+.qty {
+  border: 1px solid #444444;
+  padding: 0.6rem;
+  height: 12px;
+  width: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.qty:hover {
+  background-color: darkgray;
+}
+
+.qty-value {
+  font-size: 16px;
+  font-weight: bold;
+}
